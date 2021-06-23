@@ -94,7 +94,7 @@ if config.Pickups_ESP == 1 then
                         dx9.DrawString({pos1.x, pos1.y},{255,255,255},check.Name)
                     end
                 end
-			end
+	    end
         end
     end
 end
