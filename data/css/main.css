@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {
+    background-image: linear-gradient(180deg, #0c0c0c, #1b1b1b);
+    box-sizing: border-box;
+    color: green;
+    text-shadow: 0px 0px 15px green;
+    background-color: #0d1114;
+}
+img { display: inline-block; }
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.inline {
+    display: inline;
+}
+.f1 {
+    font-family: 'VT323', monospace;
+}
+.s1 {
+    font-size: 20px;
+}
+.s2 {
+    font-size: 24px;
+}
+.s3 {
+    font-size: 36px;
+}
+.button {
+    color: green;
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(31, 31, 31);
+    border-style: ridge;
+    border-color: green;
+    box-shadow: 0px 0px 15px green;
+    text-shadow: 0px 0px 7px green;
+}
+.bottomlocked {
+    bottom: 5px;
+    position: fixed;
+}
+.divbox {
+    background-color: #202020;
+    box-shadow: 5px 5px 10px #000000;
+    padding: 15px;
+    margin: 5px;
+    display: inline-flex;
+    width: fit-content;
+    height: fit-content;
+    text-shadow: -2px 2px 3px rgba(0, 0, 0);
+}
+.cleanbox {
+    background-color: #202020;
+    box-shadow: 3px 3px 4px #00000057;
+    padding: 8px;
+    margin: 5px;
+    display: inline-flex;
+    width: fit-content;
+    height: fit-content;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0);
+}
+.stroke{
+    text-shadow: 
+    -1px 1px 0px rgba(0, 0, 0),
+    1px -1px 0px rgba(0, 0, 0),
+    1px 1px 0px rgba(0, 0, 0),
+    -1px -1px 0px rgba(0, 0, 0);
+}
+a {
+    color: rgb(24, 153, 24);
+}
+line {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    outline-style: dashed;
+    outline-width: 1.5px;
+    outline-offset: 0px;
+    display: block;
+    background-color: green;
+    box-shadow: 0px 0px 5px green;
+}
+blinker {
+    height: 14px;
+    width: 2px;
+    display: inline-block;
+    background-color: green;
+    box-shadow: 0px 0px 5px green;
+    animation: blinkeranim 1s cubic-bezier(0.1, 1, 0.1, 1) infinite;
+}
+@keyframes blinkeranim {50% {opacity: 0;}}
