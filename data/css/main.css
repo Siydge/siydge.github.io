@@ -80,8 +80,8 @@ html {
     -1px -1px 0px rgba(0, 0, 0);
 }
 a {
-    color: rgb(15, 124, 15);
-    text-shadow: 0px 0px 10px rgba(20, 182, 20, 0.747);
+    color: rgb(28, 148, 28);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
 line {
     width: 100%;
