@@ -1,5 +1,5 @@
 -- Typical Colors 2 Pickup/Item ESP v0.1
--- Still in Early Development, since I lost half the code.
+
 local on = true local off = false
 local config = {
 	itemesp = {
